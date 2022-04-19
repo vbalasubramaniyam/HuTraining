@@ -1,11 +1,25 @@
 import csv
 
+import pandas as pd
+class ExcelUtil():
 
-with open('players.csv', 'w', newline='') as file:
-    fieldnames = ['player_name', 'fide_rating']
-    writer = csv.DictWriter(file, fieldnames=fieldnames)
+    def writer(self,header, data, filename):
+        with open(filename, "w", newline="") as csvfile:
+            fieldnames = ['Title', 'Cast', 'Director', 'Genre', 'Length', 'Admin_Rating', 'Lang', 'Timing',
+                          'No_Of_Shows', 'FirstShow', 'Int_time', 'Gap_Bw_Shows', 'Capacity']
+            writer = csv.DictWriter(csvfile, fieldnames=header)
+            writer.writeheader()
+            writer.writerows(data)
 
-    writer.writeheader()
-    writer.writerow({'player_name': 'Magnus', 'fide_rating': 2870})
-    writer.writerow({'player_name': 'Fabiano Caruana', 'fide_rating': 2822})
-    writer.writerow({'player_name': 'Ding Liren', 'fide_rating': 2801})
+
+filename = 'MovieDb.csv'
+header = ("Title", "Cast", "Director",'Genre')
+data=('vino','sam','saa','sss')
+vv=ExcelUtil()
+vv.writer(header,data,filename)
+
+    #print(df)
+#ret=ExcelUtil
+#ret.updatemovieDetails(2,'Vijay')
+
+
