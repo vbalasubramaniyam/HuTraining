@@ -1,17 +1,19 @@
 import csv
+
 import pandas as pd
 
+import CSVReader
 from UserRegistration import UserRegistration
 
 
 class Login():
-    Title = ""
+
     def __init__(self, id, password):
         self.id = id
         self.password = password
         self.error = "Enter a valid username and password"
 
-    def check(self):
+    def check(self, log_id, log_pass):
         if (self.id == log_id and self.password == log_pass):
             print("Login successful")
             self.welcomeAdmin()
@@ -19,68 +21,69 @@ class Login():
         else:
             print(self.error)
 
-    def addnewmovie(Self,Title, Cast, Director, Gen, Length, AdminRating, Lang):
-
-        with open('MovieDb.csv', 'w', newline='') as file:
-
-            fieldnames = ['Title', 'Cast', 'Director', 'Genre', 'Length', 'Admin_Rating', 'Lang','Timing',
-                          'No_Of_Shows', 'FirstShow', 'Int_time', 'Gap_Bw_Shows', 'Capacity']
-            writer = csv.DictWriter(file, fieldnames=fieldnames)
-
-            writer.writeheader()
-            writer.writerow({'Title': Title, 'Cast': Cast, 'Director': Director, 'Genre': Gen, 'Length': Length,
-                             'Admin_Rating': AdminRating, 'Lang': Lang, 'No_Of_Shows': '5',
-                             'FirstShow': '8:00 AM', 'Int_time':'15min','Gap_Bw_Shows': '30 min', 'Capacity': 50})
-
-
-    def updatemovieDetails(self,item, changedValue):
-        # reading the csv file
-        df = pd.read_csv("MovieDb.csv")
-
-        if item == 1:
-            df.loc[0, 'Title'] = changedValue
-        elif item == 2:
-            df.loc[0, 'Cast'] = changedValue
-        elif item == 3:
-            df.loc[0, 'Director'] = changedValue
-        elif item == 4:
-            df.loc[0, 'Genre'] = changedValue
-        elif item == 5:
-            df.loc[0, 'Length'] = changedValue
-        elif item == 6:
-            df.loc[0, 'Admin_Rating'] = changedValue
-        else:
-            print("Enter valid details")
-        # writing into the file
-        df.to_csv("MovieDb.csv", index=False)
+    def movieDetails(self):
+        print('******Welcome User1******')
+        print('Name :', self.name)
+        print('Email :', self.email)
+        print('Phone :', self.phone)
+        print('Age :', self.age)
+        print('Password', self.password)
     def welcomeAdmin(self):
         print('******Welcome Admin*******')
         print('1. Add New Movie Info')
         print('2. Edit Movie Info')
         print('3. Delete Movies')
         print('4.Logout')
-        adminInput=int(input("choose your option: "))
+        adminInput = int(input("choose your option: "))
         if adminInput == 1:
-            Title = input("Enter Title :")
-            Cast = input("Enter Cast :")
-            dir = input("Enter Director :")
-            Gen=input("Enter Genre :")
-            Len=input("Enter Length :")
-            Admin_Rating=input("Enter Admin Rating :")
-            Lang=input("Enter Lang :")
-            print('****Timing****')
+            print("Add new Movie: ")
+            print("----------------------------------------------------")
+            movietitle = input("Title: ")
+            genre = input("Genre: ")
+            length = input("Length: ")
+            cast = input("Cast: ")
+            director = input("Director: ")
+            adminrating = input("Admin Rating: ")
+            language = input("Language: ")
+            print("Timings:")
+            print("----------------------------------------------------")
+            shows = int(input("Number of Shows in a day: "))
+            firstshow = input("First Show: ")
+            intervaltime = input("Interval Time: ")
+            gap = input("Gap Between Shows: ")
+            capacity = int(input("Capacity: "))
 
-            self.addnewmovie(Title,Cast,dir,Gen,Len,Admin_Rating,Lang)
+            moviedata = [movietitle, genre, length, cast, director, adminrating,
+                         language, shows, firstshow, intervaltime, gap, capacity]
+
+            CSVReader.writeData(moviedata)
             self.welcomeAdmin()
         elif adminInput == 2:
-            print('******Welcome Admin*******')
-            print('Select movie which you want to edit:')
-            mydata = pd.read_csv("MovieDb.csv")
-            print(mydata.Title)
-            Edit=int(input("Please Select the Item to change: 1.Title,2.Cast,3.Director,4.Genre,5.Length,6.AdminRating :"))
-            changeValue=input("Please Enter the Change Value :")
-            self.updatemovieDetails(Edit, changeValue)
-            print("Value is changed")
+            CSVReader.displaymovies()
+            print("Edit Movie: ")
+            print("----------------------------------------------------")
+            moviename = input("Select movie which you want to edit: ")
+            li = CSVReader.readData(moviename)
+
+            movietitle = input("Title: ")
+            genre = input("Genre: ")
+            length = input("Length: ")
+            cast = input("Cast: ")
+            director = input("Director: ")
+            adminrating = input("Admin Rating: ")
+            language = input("Language: ")
+            print("Timings:")
+            print("----------------------------------------------------")
+            shows = int(input("Number of Shows in a day: "))
+            firstshow = input("First Show: ")
+            intervaltime = input("Interval Time: ")
+            gap = input("Gap Between Shows: ")
+            capacity = int(input("Capacity: "))
+
+            moviedata = [movietitle, genre, length, cast, director, adminrating,
+                         language, shows, firstshow, intervaltime, gap, capacity]
+
+            CSVReader.updatecsv(moviedata, CSVReader.readmovieindex(moviename))
             self.welcomeAdmin()
         elif adminInput == 3:
             updatedlist = []
@@ -104,19 +107,17 @@ class Login():
             print("1. Login")
             print("2. Register new account")
             print("3. Exit")
-            register =int(input("Enter option :"))
+            register = int(input("Enter option :"))
             if register == 2:
-
-                 user=UserRegistration('john doe','user1234','johndoe@gmail.com','1234567891','44')
-                 user.registerNewAcc()
-                 print('******Welcome to BooyMyShow******')
-                 username=input("Enter username :")
-                 password=input("Enter password :")
-                 user.check(username,password)
-
-
-
-log = Login("admin", "admin")
-log_id = input("Enter your user ID: ")
-log_pass = input("Enter password: ")
-log.check()
+                print('**** Create new Account *****')
+                name = input('Enter username :')
+                passw = input('Enter password :')
+                email = input('Enter email :')
+                phone = input('Enter phone number :')
+                age = input('Enter age :')
+                user = UserRegistration(name, passw, email, phone, age)
+                # user.registerNewAcc()
+                print('******Welcome to BooyMyShow******')
+                username = input("Enter username :")
+                password = input("Enter password :")
+                user.check(username, password)
