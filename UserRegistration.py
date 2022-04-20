@@ -46,3 +46,8 @@ class UserRegistration():
         if useropt == 1:
             c=CalculateTiming()
             c.getData(movie)
+            timing=input('Enter the timing')
+            print('Timing '+timing)
+            print('Remaining Seats :'+l[11])
+            seats=input('Enter number of seats :')
+            print('Thanks for the Booking')
