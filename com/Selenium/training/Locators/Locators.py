@@ -6,5 +6,5 @@ class Locators():
    From='//*[text()="From"]'  #Text
    Student='//*[@id="root"]/div/div[2]/div[2]/div/div[2]/div[1]/div/ul/li[4]/span[2]' #absolute
    Search='//*[@id="root"]/div/div[2]/div[2]/div/div[3]/span' #absolute
-   RoundTrip='//*[@id="root"]/div/div[2]/div[2]/div/ul/li[2]/span[2]' #absolute
-   Products='//*[@id="productAnchor"]//a[text()="VIEW ALL PRODUCTS"]'
+   RoundTrip='//*[@id="root"]/div/div[2]/div[2]/div/ul/li[2]/span[2]' #id
+   Products='//*[@id="productAnchor"]//a[text()="VIEW ALL PRODUCTS"]' #id
