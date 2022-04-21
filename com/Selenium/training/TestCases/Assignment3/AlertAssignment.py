@@ -1,5 +1,6 @@
 import time
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 class AlertAssignment():
     def __init__(self):
@@ -8,34 +9,36 @@ class AlertAssignment():
         self.driver.implicitly_wait(10)
         self.driver.get('https://the-internet.herokuapp.com/')
 
-    def AutoText(self):
+    def AlertEx(self):
         try:
-            self.driver.find_element(By.XPATH, '//*[@id="autocomplete-textfield"]').click()
-            # prints parent window title
-            print("Parent window title: " + self.driver.title)
-            # get current window handle
-            p = self.driver.current_window_handle
-            # get first child window
-            chwd = self.driver.window_handles
-            for w in chwd:
-                # switch focus to child window
-                if (w != p):
-                    self.driver.switch_to.window(w)
-                    break
-            time.sleep(0.9)
-            textBox = self.driver.find_element(By.XPATH, '//*[@id="myInput"]')
-            textBox.send_keys('ho')
-            self.driver.find_element(By.XPATH, '//*[@id="myInputautocomplete-list"]').click()
-            textBox = self.driver.find_element(By.XPATH, '//*[@id="myInput"]')
-            originalText = textBox.get_attribute('value')
+            self.driver.find_element(By.LINK_TEXT, 'JavaScript Alerts').click()
+            self.driver.find_element(By.XPATH, '//*[text()="Click for JS Prompt"]').click()
+            alert = self.driver.switch_to.alert
+            time.sleep(2)
+            alert.send_keys('Test')
+            time.sleep(2)
+            print("printing alert text")
+            print(alert.text)
+            alert.accept()
+            print("alert accepted")
+            time.sleep(3)
+            textBox = self.driver.find_element(By.XPATH, '//*[@id="result"]')
+            originalText = textBox.get_attribute('innerText')
             print("original text :" + originalText)
-            if (originalText == 'Honey'):
-                print('Selected text ')
+            test='Test'
+            if str.__contains__(originalText, test):
+                print('Text Printed ')
             else:
-                print('not selected')
-            time.sleep(0.9)
+                print('text not printed')
 
-        except:
-            print("An exception occurred")
+        except TimeoutException:
+            print("no alert")
+
+
+            time.sleep(2)
+            print("prompt alert test passed")
+            print("Now running confirm alert test")
         finally:
             self.driver.quit()
+a=AlertAssignment()
+a.AlertEx()
