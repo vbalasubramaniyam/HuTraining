@@ -13,14 +13,6 @@ class UserRegistration():
         self.age = age
         self.error = "Enter a valid username and password"
 
-    def registerNewAcc(self):
-        print('**** Create new Account *****')
-        print('Name :', self.name)
-        print('Email :', self.email)
-        print('Phone :', self.phone)
-        print('Age :', self.age)
-        print('Password', self.password)
-
     def check(self, log_id, log_pass):
         if (self.name == log_id and self.password == log_pass):
             print("******Welcome User1******")
