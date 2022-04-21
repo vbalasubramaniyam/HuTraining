@@ -1,7 +1,5 @@
 import csv
 
-import pandas as pd
-
 import CSVReader
 from UserRegistration import UserRegistration
 
