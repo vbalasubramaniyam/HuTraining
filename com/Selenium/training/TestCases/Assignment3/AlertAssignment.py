@@ -35,9 +35,7 @@ class AlertAssignment():
             print("no alert")
 
 
-            time.sleep(2)
-            print("prompt alert test passed")
-            print("Now running confirm alert test")
+
         finally:
             self.driver.quit()
 a=AlertAssignment()
