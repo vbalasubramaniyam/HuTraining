@@ -1,7 +1,6 @@
 import time
 
 from Main_Sel_Assignment.Pages.HomePage import HomePage
-from Main_Sel_Assignment.Pages.ProductPage import ProductPage
 from Main_Sel_Assignment.Tests.BaseClass import BaseClass
 from Main_Sel_Assignment.Utils.ExcelUtil import ExcelUtil
 import pytest

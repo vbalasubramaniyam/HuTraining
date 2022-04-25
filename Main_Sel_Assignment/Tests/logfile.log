@@ -1,0 +1,29 @@
+2022-04-25 18:43:04,074 :INFO : test_cart :User name is 9952622682
+2022-04-25 18:43:08,916 :INFO : test_cart :Logged in successfully
+2022-04-25 18:43:40,402 :INFO : test_cart :3 item added in the cart successfully
+2022-04-25 18:43:41,007 :INFO : test_cart :Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
+2022-04-25 18:43:41,027 :INFO : test_cart :Parrys White Label Sugar item added in the cart successfully
+2022-04-25 18:43:41,048 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
+2022-04-25 18:47:06,057 :INFO : test_cart :User name is 9952622682
+2022-04-25 18:47:11,543 :INFO : test_cart :Logged in successfully
+2022-04-25 18:47:44,149 :INFO : test_cart :3 item added in the cart successfully
+2022-04-25 18:47:44,658 :INFO : test_cart :Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
+2022-04-25 18:47:44,690 :INFO : test_cart :Parrys White Label Sugar item added in the cart successfully
+2022-04-25 18:47:44,708 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
+2022-04-25 20:38:34,273 :INFO : test_address :User name is 9952622682
+2022-04-25 20:38:39,095 :INFO : test_address :Logged in successfully
+2022-04-25 20:41:21,020 :INFO : test_address :User name is 9952622682
+2022-04-25 20:41:25,518 :INFO : test_address :Logged in successfully
+2022-04-25 20:44:14,455 :INFO : test_address :User name is 9952622682
+2022-04-25 20:44:18,872 :INFO : test_address :Logged in successfully
+2022-04-25 20:46:33,527 :INFO : test_address :User name is 9952622682
+2022-04-25 20:46:38,064 :INFO : test_address :Logged in successfully
+2022-04-25 20:51:59,681 :INFO : test_address :User name is 9952622682
+2022-04-25 20:52:04,320 :INFO : test_address :Logged in successfully
+2022-04-25 20:52:06,399 :INFO : test_address :CLicked My Account
+2022-04-25 20:56:46,032 :INFO : test_address :User name is 9952622682
+2022-04-25 20:56:50,652 :INFO : test_address :Logged in successfully
+2022-04-25 20:56:52,515 :INFO : test_address :CLicked My Account
+2022-04-25 21:06:37,394 :INFO : test_address :User name is 9952622682
+2022-04-25 21:06:41,992 :INFO : test_address :Logged in successfully
+2022-04-25 21:06:43,544 :INFO : test_address :CLicked My Account
