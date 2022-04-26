@@ -235,3 +235,24 @@
 2022-04-26 16:25:38,906 :INFO : test_cart :Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
 2022-04-26 16:25:38,925 :INFO : test_cart :Parrys White Label Sugar item added in the cart successfully
 2022-04-26 16:25:39,027 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
+2022-04-26 17:18:16,810 :INFO : test_cart :User name is 9952622682
+2022-04-26 17:18:16,810 :INFO : test_login :User name is 9952622682
+2022-04-26 17:18:16,875 :INFO : test_logout :User name is 9952622682
+2022-04-26 17:18:17,146 :INFO : test_address :User name is 9952622682
+2022-04-26 17:18:17,395 :INFO : test_search :User name is 9952622682
+2022-04-26 17:18:22,569 :INFO : test_login :Logged in successfully
+2022-04-26 17:18:22,642 :INFO : test_logout :user logged in successfully
+2022-04-26 17:18:22,818 :INFO : test_search :Logged in successfully
+2022-04-26 17:18:22,987 :INFO : test_address :Logged in successfully
+2022-04-26 17:18:23,095 :INFO : test_cart :user logged in successfully
+2022-04-26 17:18:24,225 :INFO : test_address :CLicked My Account
+2022-04-26 17:18:28,126 :INFO : test_logout :Logged out successfully
+2022-04-26 17:18:29,374 :INFO : test_address :Vino Address Saved Sucessfully
+2022-04-26 17:18:55,411 :INFO : test_cart :3 item added in the cart successfully
+2022-04-26 17:18:55,877 :INFO : test_cart :Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
+2022-04-26 17:18:55,892 :INFO : test_cart :Parrys White Label Sugar item added in the cart successfully
+2022-04-26 17:18:55,909 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
+2022-04-26 17:20:29,961 :INFO : test_search :User name is 9952622682
+2022-04-26 17:20:35,197 :INFO : test_search :Logged in successfully
+2022-04-26 17:22:29,299 :INFO : test_search :User name is 9952622682
+2022-04-26 17:22:33,899 :INFO : test_search :Logged in successfully

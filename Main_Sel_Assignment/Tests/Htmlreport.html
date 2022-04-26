@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Htmlreport.html</h1>
-    <p>Report generated on 26-Apr-2022 at 16:25:39 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 26-Apr-2022 at 17:18:56 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.8.10</td></tr></table>
     <h2>Summary</h2>
-    <p>5 tests ran in 66.83 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>5 tests ran in 69.65 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,11 +271,32 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test_search .py::Test_search::test_search[getData0]</td>
+          <td class="col-duration">35.22</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div><div><img src="test_search .py_Test_search_test_search[getData0].png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
+            <div class="log">[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/><br/>self = &lt;Main_Sel_Assignment.Tests.test_search .Test_search object at 0x7fa6b02b3dc0&gt;<br/>getData = {&#x27;Password&#x27;: &#x27;Vino@123&#x27;, &#x27;Pincode&#x27;: &#x27;641402&#x27;, &#x27;Product1&#x27;: &#x27;Sunfeast Dark Fantasy Choco Fills Cream Filled&#x27;, &#x27;Product2&#x27;: &#x27;Parrys White Label Sugar&#x27;, ...}<br/><br/>    def test_search(self, getData):<br/>        log = self.getLogger()<br/>        homePage = HomePage(self.driver)<br/>        log.info(&quot;User name is &quot; + getData[&quot;Username&quot;])<br/>        homePage.login_flipkart(getData[&quot;Username&quot;], getData[&quot;Password&quot;])<br/>        log.info(&quot;Logged in successfully&quot;)<br/>        product = homePage.gotoProduct()<br/>&gt;       product.verifysearchandfilter()<br/><span class="error">E       TypeError: verifysearchandfilter() missing 1 required positional argument: &#x27;brand&#x27;</span><br/><br/>test_search .py:17: TypeError[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_search .py:13 User name is 9952622682
+INFO     test_search:test_search .py:15 Logged in successfully<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_Logout.py::Test_Login::test_login[getData0]</td>
+          <td class="col-duration">34.94</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_login:Test_login.py:12 User name is 9952622682
+INFO     test_login:Test_login.py:14 Logged in successfully<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_cart.py::Test_Cart::test_cart[getData0]</td>
-          <td class="col-duration">65.63</td>
+          <td class="col-duration">68.08</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -290,21 +311,8 @@ INFO     test_cart:test_cart.py:52 PARLE Wafers Cream and Onion item added in th
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_search .py::Test_search::test_search[getData0]</td>
-          <td class="col-duration">38.38</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> ------------------------------Captured stdout call------------------------------ <br/>True
-Tata Besan 100% Chana Dal, 1 kg
-Tata BESAN 1 KG
-<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_search .py:13 User name is 9952622682
-INFO     test_search:test_search .py:15 Logged in successfully<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
           <td class="col-name">test_Logout.py::Test_Logout::test_logout[getData0]</td>
-          <td class="col-duration">40.73</td>
+          <td class="col-duration">40.33</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -314,18 +322,8 @@ INFO     test_logout:test_Logout.py:26 Logged out successfully<br/></div></td></
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_Logout.py::Test_Login::test_login[getData0]</td>
-          <td class="col-duration">33.70</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_login:Test_login.py:12 User name is 9952622682
-INFO     test_login:Test_login.py:14 Logged in successfully<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
           <td class="col-name">test_address.py::Test_AddAddress::test_address[getData0]</td>
-          <td class="col-duration">41.04</td>
+          <td class="col-duration">41.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

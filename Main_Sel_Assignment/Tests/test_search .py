@@ -14,7 +14,7 @@ class Test_search(BaseClass):
         homePage.login_flipkart(getData["Username"], getData["Password"])
         log.info("Logged in successfully")
         product = homePage.gotoProduct()
-        product.verifysearchandfilter()
+        product.verifysearchandfilter(getData["brand"])
 
     @pytest.fixture(params=ExcelUtil.getTestData("TestCase1"))
     def getData(self, request):
