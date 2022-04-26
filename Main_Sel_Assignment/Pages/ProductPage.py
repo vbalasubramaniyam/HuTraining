@@ -15,7 +15,7 @@ class ProductPage:
     listfilter = (By.XPATH, "//a[contains(text(),'Tata')]")
 
     # Verify the product Based on the search and filter
-    def verifysearchandfilter(self,brand):
+    def verifysearchandfilter(self):
         self.driver.find_element(*ProductPage.searchbox).send_keys("Besan", Keys.ENTER)
         time.sleep(3)
         besandisplayed = self.driver.find_element(*ProductPage.filterby)
@@ -24,7 +24,7 @@ class ProductPage:
 
         listofbasan = self.driver.find_elements(*ProductPage.listfilter)
         for i in listofbasan:
-            assert (brand in i.text)
+            assert ("Tata" in i.text)
             print(i.text)
 
         return self

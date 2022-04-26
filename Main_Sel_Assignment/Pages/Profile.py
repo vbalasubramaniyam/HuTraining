@@ -55,4 +55,4 @@ class ProfilePage:
             self.driver.implicitly_wait(20)  # seconds
             self.driver.find_element(*ProfilePage.saveButton).click()
         except Exception:
-            raise Exception.with_traceback()
+            raise Exception
