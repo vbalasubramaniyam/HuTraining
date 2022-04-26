@@ -21,6 +21,7 @@ class ProfilePage:
     homeRadioButton=(By.XPATH,"//*[text()='Home']")
     saveButton=(By.XPATH,"//*[text()='Save']")
 
+    # Select State from DropDown
     def selectState(self,fstate):
         # identify dropdown with Select class
         sel = Select(self.driver.find_element(*ProfilePage.state))
@@ -28,12 +29,13 @@ class ProfilePage:
         sel.select_by_visible_text(fstate)
         time.sleep(0.8)
         return self
-
+    # Verify whether the Address is Saved
     def verifyAddressSaved(self, value):
         self.driver.implicitly_wait(10)  # seconds
         element = self.driver.find_element(By.XPATH, "//*[text()=\"" + value + "\"]")
         return element
 
+    # Add Address
     def addAddress(self,fname,fphone,fpincode,flocality,faddress,fcity,fstate):
         try:
             self.driver.implicitly_wait(20)  # seconds
