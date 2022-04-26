@@ -12,14 +12,16 @@ class Test_AddAddress(BaseClass):
         log.info("User name is " + getData["Username"])
         homePage.login_flipkart(getData["Username"],getData["Password"])
         log.info("Logged in successfully")
-        #time.sleep(3)
-        #homePage.switchtoiframe()
         self.driver.implicitly_wait(60)  # seconds
         homePage.clickMyAccount()
         log.info("CLicked My Account")
         profileObj=homePage.gotoProfile()
-        profileObj.addAddress()
-
-    @pytest.fixture(params=ExcelUtil.getTestData("TestCase3"))
+        profileObj.addAddress(getData["fname"],getData["Username"],getData["Pincode"],getData["flocality"],getData["faddress"],getData["fcity"],getData["fstate"])
+        element=profileObj.verifyAddressSaved(getData["fname"])
+        if element.is_displayed():
+            log.info(getData['fname'] + " Address Saved Sucessfully")
+        else:
+            log.error("Address not saved")
+    @pytest.fixture(params=ExcelUtil.getTestData("TestCase4"))
     def getData(self, request):
         return request.param
