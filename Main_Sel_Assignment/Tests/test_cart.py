@@ -1,25 +1,21 @@
-import time
-
+import pytest
 from Main_Sel_Assignment.Pages.HomePage import HomePage
 from Main_Sel_Assignment.Tests.BaseClass import BaseClass
 from Main_Sel_Assignment.Utils.ExcelUtil import ExcelUtil
-import pytest
-
 class Test_Cart(BaseClass):
 
-
-    def test_cart(self,getData):
+    def test_cart(self, getData):
         log = self.getLogger()
         homePage = HomePage(self.driver)
         log.info("User name is " + getData["Username"])
-        status=homePage.login_flipkart(getData["Username"],getData["Password"])
-        if status==True:
+        status = homePage.login_flipkart(getData["Username"], getData["Password"])
+        if status == True:
             log.info("user logged in successfully")
         else:
             log.error("Please enter valid user details")
 
-        #time.sleep(3)
-        #homePage.switchtoiframe()
+        # time.sleep(3)
+        # homePage.switchtoiframe()
         self.driver.implicitly_wait(60)  # seconds
         homePage.clickGrocery()
         homePage.enterPincode(getData['Pincode'])
@@ -30,7 +26,7 @@ class Test_Cart(BaseClass):
         homePage.searchProduct_Flipkart(getData['Product3'])
         homePage.addtoCart(getData['Product3'])
         homePage.clickCart()
-        originalValue =homePage.verifyGroceryBasket()
+        originalValue = homePage.verifyGroceryBasket()
         print("original text :" + originalValue)
 
         if str.__contains__(originalValue, "3"):
@@ -39,18 +35,18 @@ class Test_Cart(BaseClass):
         else:
             log.error("Expected item not added in the cart")
 
-        cart=homePage.gotoCart()
+        cart = homePage.gotoCart()
         cart.clickViewAll()
-        element=cart.verifyGroceryItemsinCart(getData['Product1'])
+        element = cart.verifyGroceryItemsinCart(getData['Product1'])
         if element.is_displayed():
-            log.info( getData['Product1']+" item added in the cart successfully")
+            log.info(getData['Product1'] + " item added in the cart successfully")
         else:
             log.error("Expected item not added in the cart")
         element1 = cart.verifyGroceryItemsinCart(getData['product2_dub'])
         if element1.is_displayed():
-                log.info(getData['Product2'] + " item added in the cart successfully")
+            log.info(getData['Product2'] + " item added in the cart successfully")
         else:
-                log.error("Expected item not added in the cart")
+            log.error("Expected item not added in the cart")
         element2 = cart.verifyGroceryItemsinCart(getData['Product3'])
         if element2.text == getData['Product3']:
             log.info(getData['Product3'] + " item added in the cart successfully")
@@ -60,3 +56,4 @@ class Test_Cart(BaseClass):
     @pytest.fixture(params=ExcelUtil.getTestData("TestCase2"))
     def getData(self, request):
         return request.param
+

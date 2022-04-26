@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Htmlreport.html</h1>
-    <p>Report generated on 26-Apr-2022 at 12:14:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 26-Apr-2022 at 16:25:39 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -254,13 +254,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>macOS-10.16-x86_64-i386-64bit</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"html": "3.1.1", "metadata": "2.0.1"}</td></tr>
+        <td>{"forked": "1.4.0", "html": "3.1.1", "metadata": "2.0.1", "xdist": "2.5.0"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.8.10</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 25.87 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>5 tests ran in 66.83 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,13 +271,65 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Test_cart.py::Test_Cart::test_cart[getData0]</td>
-          <td class="col-duration">25.06</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_cart.py::Test_Cart::test_cart[getData0]</td>
+          <td class="col-duration">65.63</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div><div><img src="Test_cart.py_Test_Cart_test_cart[getData0].png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log">[gw3] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw3] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw3] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw3] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> ------------------------------Captured stdout call------------------------------ <br/>original text :Grocery Basket (3 items)
+Text Printed 
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_cart:test_cart.py:10 User name is 9952622682
+INFO     test_cart:test_cart.py:13 user logged in successfully
+INFO     test_cart:test_cart.py:34 3 item added in the cart successfully
+INFO     test_cart:test_cart.py:42 Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
+INFO     test_cart:test_cart.py:47 Parrys White Label Sugar item added in the cart successfully
+INFO     test_cart:test_cart.py:52 PARLE Wafers Cream and Onion item added in the cart successfully<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_search .py::Test_search::test_search[getData0]</td>
+          <td class="col-duration">38.38</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw4] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> ------------------------------Captured stdout call------------------------------ <br/>True
+Tata Besan 100% Chana Dal, 1 kg
+Tata BESAN 1 KG
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_search:test_search .py:13 User name is 9952622682
+INFO     test_search:test_search .py:15 Logged in successfully<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_Logout.py::Test_Logout::test_logout[getData0]</td>
+          <td class="col-duration">40.73</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw1] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw1] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw1] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw1] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_logout:test_Logout.py:15 User name is 9952622682
+INFO     test_logout:test_Logout.py:18 user logged in successfully
+INFO     test_logout:test_Logout.py:26 Logged out successfully<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_Logout.py::Test_Login::test_login[getData0]</td>
+          <td class="col-duration">33.70</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw0] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_login:Test_login.py:12 User name is 9952622682
+INFO     test_login:Test_login.py:14 Logged in successfully<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_address.py::Test_AddAddress::test_address[getData0]</td>
+          <td class="col-duration">41.04</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw2] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/>[gw2] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw2] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8[gw2] darwin -- Python 3.8.10 /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_address:test_address.py:12 User name is 9952622682
+INFO     test_address:test_address.py:14 Logged in successfully
+INFO     test_address:test_address.py:17 CLicked My Account
+INFO     test_address:test_address.py:22 Vino Address Saved Sucessfully<br/></div></td></tr></tbody></table></body></html>

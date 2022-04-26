@@ -5,9 +5,9 @@ from Main_Sel_Assignment.Tests.BaseClass import BaseClass
 from Main_Sel_Assignment.Utils.ExcelUtil import ExcelUtil
 
 
-class test_filtering(BaseClass):
+class Test_search(BaseClass):
 
-    def test_filtering(self, getData):
+    def test_search(self, getData):
         log = self.getLogger()
         homePage = HomePage(self.driver)
         log.info("User name is " + getData["Username"])

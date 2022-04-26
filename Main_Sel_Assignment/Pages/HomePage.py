@@ -28,6 +28,7 @@ class HomePage:
     groceryBasket = (By.XPATH, "//*[contains(text(),'Grocery Basket')]")
     myAccount = (By.XPATH, "//*[text()='My Account']")
     myProfile = (By.XPATH, "//*[text()='My Profile']")
+    logout=(By.XPATH, "//*[text()='Logout']")
 
     # creating object for Cart Page
     def gotoCart(self):
@@ -95,6 +96,20 @@ class HomePage:
         except Exception:
             raise Exception.__traceback__
 
+    def logout_Flipkart(self):
+        try:
+            account = self.driver.find_element(*HomePage.myAccount)
+
+            hover = ActionChains(self.driver)
+            hover.move_to_element(account).perform()
+            # identify sub menu element
+            logot = self.driver.find_element(*HomePage.logout)
+            # hover over element and click
+            hover.move_to_element(logot).click().perform()
+
+        except Exception:
+            raise Exception.__traceback__
+
     def switchtoiframe(self):
         self.driver.switch_to.frame(0)
 
@@ -106,6 +121,16 @@ class HomePage:
         self.driver.find_element(*HomePage.pincode).send_keys(Keys.RETURN)
         self.driver.implicitly_wait(20)  # seconds
 
+    def verifyLogin(self):
+        try:
+            self.driver.implicitly_wait(30)  # seconds
+            usr = self.driver.find_element(*HomePage.username)
+            if usr.is_displayed():
+                return True
+            else:
+                return False
+        except:
+            raise Exception
     def login_flipkart(self, username, password):
         try:
             usr = self.driver.find_element(*HomePage.username)
