@@ -6,7 +6,7 @@ import pytest
 class Test_AddAddress(BaseClass):
 
 
-    def test_address(self,getData):
+    def test_addaddress(self,getData):
         log = self.getLogger()
         homePage = HomePage(self.driver)
         log.info("User name is " + getData["Username"])
