@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 from Main_Sel_Assignment.Pages.CartPage import CartPage
+from Main_Sel_Assignment.Pages.ProductPage import ProductPage
 from Main_Sel_Assignment.Pages.Profile import ProfilePage
 
 
@@ -12,6 +13,7 @@ class HomePage:
 
     def __init__(self, driver):
         self.driver = driver
+        self.error = "Enter a valid username and password"
 
     username = (By.XPATH, "/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input")
     password = (By.XPATH, "//input[@type='password']")
@@ -26,6 +28,21 @@ class HomePage:
     groceryBasket = (By.XPATH, "//*[contains(text(),'Grocery Basket')]")
     myAccount = (By.XPATH, "//*[text()='My Account']")
     myProfile = (By.XPATH, "//*[text()='My Profile']")
+
+    # creating object for Cart Page
+    def gotoCart(self):
+        cartobj = CartPage(self.driver)
+        return cartobj
+
+    # creating object for ProfilePage
+    def gotoProfile(self):
+        profileObj = ProfilePage(self.driver)
+        return profileObj
+
+    # creating object for ProfilePage
+    def gotoProduct(self):
+        productObj = ProductPage(self.driver)
+        return productObj
 
     def searchProduct_Flipkart(self, item):
         self.driver.implicitly_wait(60)  # seconds
@@ -64,16 +81,6 @@ class HomePage:
         totalItem = self.driver.find_element(*HomePage.groceryBasket).get_attribute('innerText')
         return totalItem
 
-    # creating object for Cart Page
-    def gotoCart(self):
-        cartobj = CartPage(self.driver)
-        return cartobj
-
-    # creating object for ProfilePage
-    def gotoProfile(self):
-        profileObj = ProfilePage(self.driver)
-        return profileObj
-
     def clickMyAccount(self):
         try:
             account = self.driver.find_element(*HomePage.myAccount)
@@ -110,6 +117,7 @@ class HomePage:
             self.driver.implicitly_wait(10)  # seconds
             self.driver.find_element(*HomePage.LoginBtn).click()
             time.sleep(3)
+            return True
         except Exception:
-            raise Exception()
-        return self
+            return False
+

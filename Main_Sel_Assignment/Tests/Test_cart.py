@@ -12,8 +12,12 @@ class Test_Cart(BaseClass):
         log = self.getLogger()
         homePage = HomePage(self.driver)
         log.info("User name is " + getData["Username"])
-        homePage.login_flipkart(getData["Username"],getData["Password"])
-        log.info("Logged in successfully")
+        status=homePage.login_flipkart(getData["Username"],getData["Password"])
+        if status==True:
+            log.info("user logged in successfully")
+        else:
+            log.error("Please enter valid user details")
+
         #time.sleep(3)
         #homePage.switchtoiframe()
         self.driver.implicitly_wait(60)  # seconds
