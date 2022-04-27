@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 from Main_Sel_Assignment.Pages.CartPage import CartPage
+from Main_Sel_Assignment.Pages.FahionPage import FashionPage
 from Main_Sel_Assignment.Pages.ProductPage import ProductPage
 from Main_Sel_Assignment.Pages.Profile import ProfilePage
 
@@ -27,6 +28,9 @@ class HomePage:
     myAccount = (By.XPATH, "//*[text()='My Account']")
     myProfile = (By.XPATH, "//*[text()='My Profile']")
     logout = (By.XPATH, "//*[text()='Logout']")
+    fashion=(By.XPATH,"//*[@alt='Fashion']")
+    watch=(By.XPATH, "//*[text()='Watches and Accessories']")
+    wallet=(By.XPATH, "(//*[text()='Wallets'])[1]")
 
     # creating object for Cart Page
     def gotoCart(self):
@@ -37,6 +41,12 @@ class HomePage:
     def gotoProfile(self):
         profileObj = ProfilePage(self.driver)
         return profileObj
+
+    # creating object for ProfilePage
+
+    def gotoFashion(self):
+        fashionObj = FashionPage(self.driver)
+        return fashionObj
 
     # creating object for ProfilePage
     def gotoProduct(self):
@@ -104,6 +114,26 @@ class HomePage:
             logot = self.driver.find_element(*HomePage.logout)
             # hover over element and click
             hover.move_to_element(logot).click().perform()
+
+        except Exception:
+            raise Exception.__traceback__
+
+        # Goto Fashion Wallet
+
+    def clickFashionWallet(self):
+        try:
+            fashion = self.driver.find_element(*HomePage.fashion)
+
+            hover = ActionChains(self.driver)
+            hover.move_to_element(fashion).perform()
+            # identify sub menu element
+            footwear = self.driver.find_element(*HomePage.watch)
+            # hover over element and click
+            hover.move_to_element(footwear).perform()
+
+            activefootwear = self.driver.find_element(*HomePage.wallet)
+            # hover over element and click
+            hover.move_to_element(activefootwear).click().perform()
 
         except Exception:
             raise Exception.__traceback__
