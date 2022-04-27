@@ -31,12 +31,15 @@ class ProfilePage:
         return self
     # Verify whether the Address is Saved
     def verifyAddressSaved(self, value):
+      try:
         self.driver.implicitly_wait(10)  # seconds
         element = self.driver.find_element(By.XPATH, "//*[text()=\"" + value + "\"]")
         return element
+      except:
+          raise Exception
 
     # Add Address
-    def addAddress(self,fname,fphone,fpincode,flocality,faddress,fcity,fstate):
+    def addAddress(self,fname,fphone,fpincode,flocality,faddress):
         try:
             self.driver.implicitly_wait(20)  # seconds
             self.driver.find_element(*ProfilePage.myAddress).click()

@@ -16,7 +16,7 @@ class Test_AddAddress(BaseClass):
         homePage.clickMyAccount()
         log.info("CLicked My Account")
         profileObj=homePage.gotoProfile()
-        profileObj.addAddress(getData["fname"],getData["Username"],getData["Pincode"],getData["flocality"],getData["faddress"],getData["fcity"],getData["fstate"])
+        profileObj.addAddress(getData["fname"],getData["Username"],getData["Pincode"],getData["flocality"],getData["faddress"])
         element=profileObj.verifyAddressSaved(getData["fname"])
         if element.is_displayed():
             log.info(getData['fname'] + " Address Saved Sucessfully")

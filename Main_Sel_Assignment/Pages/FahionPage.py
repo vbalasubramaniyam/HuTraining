@@ -15,7 +15,6 @@ class FashionPage:
     tshirt=(By.XPATH,"//*[text()='T-Shirts']")
     yellowtshirt=(By.XPATH,"(//*[text()='Printed Men Round Neck Yellow T-Shirt'])[1]")
     walletwishlist=(By.XPATH,"(//*[@opacity='.9'])[1]")
-    #tshirtwishlist=(By.XPATH,"//*[@id='container']/div/div[3]/div[1]/div[2]/div[2]/div/div[1]/div/a/div[4]")
     wishlisttext=(By.XPATH,"//*[text()='Wishlist']")
     myAccount = (By.XPATH, "//*[text()='My Account']")
 
@@ -24,7 +23,7 @@ class FashionPage:
      try:
          self.driver.implicitly_wait(60)  # seconds
          time.sleep(3)
-         element=self.driver.find_element(By.XPATH, "//*[contains(text(),\'"+value+"\')]")
+         self.driver.find_element(By.XPATH, "//*[contains(text(),\'"+value+"\')]")
          return True
      except Exception:
         raise False
@@ -62,7 +61,7 @@ class FashionPage:
         except Exception:
              raise Exception.__traceback__
 
-    # Click MyAccount from the top Menu
+    # Click MyWishlist from the top Menu
     def clickWhishlist(self):
         try:
             time.sleep(3)

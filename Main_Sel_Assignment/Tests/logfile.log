@@ -452,3 +452,7 @@
 2022-04-27 11:03:51,680 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
 2022-04-27 11:03:52,910 :INFO : test_AddandVerifyWishlist :M&H Our Water Printed Men Round NeckProduct added to wishlist in successfully
 2022-04-27 11:03:55,923 :INFO : test_AddandVerifyWishlist :PASSION PETALS Men Black Artificial Leather WalletProduct added to wishlist in successfully
+2022-04-27 12:33:28,365 :INFO : test_address :User name is 9952622682
+2022-04-27 12:33:32,880 :INFO : test_address :Logged in successfully
+2022-04-27 12:33:34,881 :INFO : test_address :CLicked My Account
+2022-04-27 12:33:38,152 :INFO : test_address :Vino Address Saved Sucessfully
