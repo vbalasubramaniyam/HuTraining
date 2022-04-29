@@ -23,11 +23,6 @@ class Test_wishlist(BaseClass):
         fashion.clickpricelowtoHigh()
         fashion.clickTshirtwishlist()
         fashion.clickWhishlist()
-        status=fashion.verifyWishlist(getData["Product1"])
-        if status == True:
-            log.info(getData["Product1"]+"Product added to wishlist in successfully")
-        else:
-            log.error("product not added to the wishlist")
         status1=fashion.verifyWishlist(getData["Product2"])
         if status1 == True:
             log.info(getData["Product2"] + "Product added to wishlist in successfully")

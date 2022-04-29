@@ -456,3 +456,46 @@
 2022-04-27 12:33:32,880 :INFO : test_address :Logged in successfully
 2022-04-27 12:33:34,881 :INFO : test_address :CLicked My Account
 2022-04-27 12:33:38,152 :INFO : test_address :Vino Address Saved Sucessfully
+2022-04-27 15:27:58,272 :INFO : test_search :User name is 9952622682
+2022-04-27 15:28:03,385 :INFO : test_search :Logged in successfully
+2022-04-27 15:29:26,373 :INFO : test_search :User name is 9952622682
+2022-04-27 15:29:31,092 :INFO : test_search :Logged in successfully
+2022-04-27 17:52:08,006 :INFO : test_AddandVerifyWishlist :User name is 9952622682
+2022-04-27 17:52:13,025 :INFO : test_AddandVerifyWishlist :Logged in successfully
+2022-04-27 17:53:55,242 :INFO : test_AddandVerifyWishlist :User name is 9952622682
+2022-04-27 17:54:00,005 :INFO : test_AddandVerifyWishlist :Logged in successfully
+2022-04-27 17:54:29,260 :INFO : test_AddandVerifyWishlist :RS Creation Typography Men Round Neck White T-ShirtProduct added to wishlist in successfully
+2022-04-27 17:54:29,261 :INFO : test_AddandVerifyWishlist :PASSION PETALS Men Black Artificial Leather WalletProduct added to wishlist in successfully
+2022-04-28 08:22:33,388 :INFO : test_AddandVerifyWishlist :User name is 9952622682
+2022-04-28 08:22:37,930 :INFO : test_AddandVerifyWishlist :Logged in successfully
+2022-04-28 08:23:04,098 :INFO : test_AddandVerifyWishlist :PASSION PETALS Men Black Artificial Leather WalletProduct added to wishlist in successfully
+2022-04-28 17:37:34,680 :INFO : test_login :User name is 9952622682
+2022-04-28 17:37:40,156 :INFO : test_login :Logged in successfully
+2022-04-28 17:38:42,947 :INFO : test_cart :User name is 9952622682
+2022-04-28 17:38:47,929 :INFO : test_cart :user logged in successfully
+2022-04-28 17:42:21,008 :INFO : test_logout :User name is 9952622682
+2022-04-28 17:42:23,252 :ERROR : test_logout :Please enter valid user details
+2022-04-28 17:43:15,744 :INFO : test_login :User name is 9952622682
+2022-04-28 17:43:20,375 :INFO : test_login :Logged in successfully
+2022-04-28 17:44:05,471 :INFO : test_logout :User name is 9952622682
+2022-04-28 17:44:09,682 :INFO : test_logout :user logged in successfully
+2022-04-28 17:44:44,498 :INFO : test_address :User name is 9952622682
+2022-04-28 17:44:49,258 :INFO : test_address :Logged in successfully
+2022-04-28 17:44:50,943 :INFO : test_address :CLicked My Account
+2022-04-28 17:44:54,330 :INFO : test_address :Vino Address Saved Sucessfully
+2022-04-28 17:45:10,466 :INFO : test_cart :User name is 9952622682
+2022-04-28 17:45:15,089 :INFO : test_cart :user logged in successfully
+2022-04-28 17:45:46,205 :INFO : test_cart :3 item added in the cart successfully
+2022-04-28 17:45:46,766 :INFO : test_cart :Bingo Mad Angles Achaari Masti Chips Chips item added in the cart successfully
+2022-04-28 17:45:46,783 :INFO : test_cart :Parrys White Label Sugar item added in the cart successfully
+2022-04-28 17:45:46,805 :INFO : test_cart :PARLE Wafers Cream and Onion item added in the cart successfully
+2022-04-28 17:46:07,796 :INFO : test_search :User name is 9952622682
+2022-04-28 17:46:12,360 :INFO : test_search :Logged in successfully
+2022-04-28 17:46:37,244 :INFO : test_AddandVerifyWishlist :User name is 9952622682
+2022-04-28 17:46:41,811 :INFO : test_AddandVerifyWishlist :Logged in successfully
+2022-04-28 17:47:08,082 :INFO : test_AddandVerifyWishlist :PASSION PETALS Men Black Artificial Leather WalletProduct added to wishlist in successfully
+2022-04-28 17:48:29,203 :INFO : test_login :User name is 9952622682
+2022-04-28 17:48:33,908 :INFO : test_login :Logged in successfully
+2022-04-28 17:48:50,366 :INFO : test_logout :User name is 9952622682
+2022-04-28 17:48:55,107 :INFO : test_logout :user logged in successfully
+2022-04-28 17:49:00,138 :INFO : test_logout :Logged out successfully
