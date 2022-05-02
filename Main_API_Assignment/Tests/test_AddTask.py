@@ -4,7 +4,6 @@ import pytest
 import requests
 
 from Main_API_Assignment.Tests import test_getToken
-from Main_API_Assignment.Utility import Util
 from Main_API_Assignment.Utility.ExcelUtil import ExcelUtil
 from Main_API_Assignment.Utility.readCSV import read_test_data_from_csv
 
@@ -12,9 +11,6 @@ from Main_API_Assignment.Utility.readCSV import read_test_data_from_csv
 @pytest.mark.parametrize("Description", read_test_data_from_csv())
 def test_Addtask(Description,getData):
   str=Description[0]
-  print("converted to str "+str)
-
-  endpoint="task"
   token=test_getToken.test_token(getData)
   headers = {'Authorization': token, "Content-Type": "application/json"}
   payload = {

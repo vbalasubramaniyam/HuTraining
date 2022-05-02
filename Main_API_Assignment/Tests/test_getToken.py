@@ -1,4 +1,4 @@
-from Main_API_Assignment.Utility import Util
+from Main_API_Assignment.Pages import User
 
 
 def test_token(getData):
@@ -8,7 +8,7 @@ def test_token(getData):
       "email": getData["email"],
       "password": getData["Password"],
   }
-  token=Util.post(endpoint,payload,headers=None,expectedstatuscode=200)
+  token= User.post(endpoint, payload, headers=None, expectedstatuscode=200)
   logoutendpoint="logout"
   originalToken=token["token"]
   token1='Bearer '+originalToken

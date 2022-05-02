@@ -2835,3 +2835,786 @@
 2022-05-02 15:08:35,682 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
 2022-05-02 15:08:35,682 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
 2022-05-02 15:08:35,682 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:32:00,091 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:01:59.794Z","__v":55},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODU3MTl9.3wrDH0JAIT1rHEk3_jnvsAsJnUxfYd10QzkWY-QHSL4"}
+2022-05-02 15:33:18,473 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:03:18.185Z","__v":56},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODU3OTh9.oxQOn9ryt84_TLbkau4bbMql_JvRMSdOzQTz_BiHloM"}
+2022-05-02 15:33:20,378 :INFO : Main_API_Assignment.Utility.Util :POST response {"success":true}
+2022-05-02 15:33:20,378 :INFO : Main_API_Assignment.Utility.Util :POST response {"success":true}
+2022-05-02 15:35:26,838 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:05:26.276Z","__v":58},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODU5MjZ9.vKYBHpZOWLxQ2kTTPW8FjhFBFOJ9UzktGZ3TdEIwKYc"}
+2022-05-02 15:35:28,788 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":2,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0}]}
+2022-05-02 15:35:28,788 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":2,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0}]}
+2022-05-02 15:35:30,478 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":5,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0}]}
+2022-05-02 15:35:30,478 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":5,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0}]}
+2022-05-02 15:35:30,478 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":5,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0}]}
+2022-05-02 15:35:32,076 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":10,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0}]}
+2022-05-02 15:35:32,076 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":10,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0}]}
+2022-05-02 15:35:32,076 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":10,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0}]}
+2022-05-02 15:35:32,076 :INFO : Main_API_Assignment.Utility.Util :getTask API response: {"count":10,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0}]}
+2022-05-02 15:36:47,740 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:06:47.377Z","__v":59},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODYwMDd9.5UUYxEAa53FuX8qbRC8vdKpOm1zG4qclDrSyoEqzuJY"}
+2022-05-02 15:36:49,685 :INFO : Main_API_Assignment.Utility.Util :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:36:49,685 :INFO : Main_API_Assignment.Utility.Util :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Eat Banana task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Eat Banana task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Eat Banana task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Play Music task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Play Music task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Play Music task is available 
+2022-05-02 15:36:49,686 :INFO : Main_API_Assignment.Utility.Util :Play Music task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Play Movie task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Play Movie task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Play Movie task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Play Movie task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Play Movie task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,687 :INFO : Main_API_Assignment.Utility.Util :Ride Bike task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Getout task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Clean Home task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,688 :INFO : Main_API_Assignment.Utility.Util :Play TV task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Play Cricket task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Go ride task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,689 :INFO : Main_API_Assignment.Utility.Util :Drink coke task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Drink Coffee task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,690 :INFO : Main_API_Assignment.Utility.Util :Call Swiggy task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Get Food task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,691 :INFO : Main_API_Assignment.Utility.Util :Read book task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Call Dad task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,692 :INFO : Main_API_Assignment.Utility.Util :Work well task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Complete Assignment task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,693 :INFO : Main_API_Assignment.Utility.Util :Talk SLow task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,694 :INFO : Main_API_Assignment.Utility.Util :Yell task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:36:49,695 :INFO : Main_API_Assignment.Utility.Util :Speak task is available 
+2022-05-02 15:39:27,275 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:09:26.924Z","__v":60},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODYxNjZ9.MtFnSLKMCSAzuu1s1dZq7k-ftc2npsjiUnVel0yyuss"}
+2022-05-02 15:39:29,020 :INFO : Main_API_Assignment.Utility.Util :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:39:29,020 :INFO : Main_API_Assignment.Utility.Util :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:39:29,066 :INFO : verifyAllTask :Eat Banana task is available 
+2022-05-02 15:39:29,067 :INFO : verifyAllTask :Play Music task is available 
+2022-05-02 15:39:29,067 :INFO : verifyAllTask :Play Music task is available 
+2022-05-02 15:39:29,068 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:39:29,068 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:39:29,068 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:39:29,069 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:39:29,069 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:39:29,069 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:39:29,069 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:39:29,070 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:39:29,070 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:39:29,070 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:39:29,070 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:39:29,070 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,071 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,072 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,073 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,074 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,075 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,076 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,077 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,079 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,080 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,081 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,082 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,083 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,084 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,085 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:39:29,086 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:43:21,840 :INFO : Main_API_Assignment.Utility.Util :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:13:21.521Z","__v":61},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODY0MDF9.1kkmNn6ypbj5iEKMSXNFf5V_9iKrHxMLF-FIHP4PInU"}
+2022-05-02 15:43:23,953 :INFO : __init__ :getTask API response: {"count":2,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0}]}
+2022-05-02 15:43:26,211 :INFO : __init__ :getTask API response: {"count":5,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0}]}
+2022-05-02 15:43:28,156 :INFO : __init__ :getTask API response: {"count":10,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0}]}
+2022-05-02 15:48:40,475 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:18:39.986Z","__v":62},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODY3MTl9.oWA4WOrxXHDH-RDme5BdVTj5W0D76tSk84waT1PV52I"}
+2022-05-02 15:49:41,267 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:19:40.946Z","__v":63},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODY3ODB9.P6-fZtmCSjZeJkGXl71_t_bdslPv73w8Ax_YVqKqLck"}
+2022-05-02 15:51:11,211 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:21:10.903Z","__v":64},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODY4NzB9.hZwP4rCeUwyjhgOgnV7hE4sWtu3X7iRuVTQJRtA270o"}
+2022-05-02 15:52:02,414 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:22:01.983Z","__v":65},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODY5MjF9.zpuzs4yy2EDKfvOWRbVISu9fkOXWHUan2z3_FDdjV0s"}
+2022-05-02 15:52:04,360 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:52:04,360 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:52:04,407 :INFO : verifyAllTask :Eat Banana task is available 
+2022-05-02 15:52:04,408 :INFO : verifyAllTask :Play Music task is available 
+2022-05-02 15:52:04,408 :INFO : verifyAllTask :Play Music task is available 
+2022-05-02 15:52:04,409 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:52:04,409 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:52:04,409 :INFO : verifyAllTask :Play Movie task is available 
+2022-05-02 15:52:04,410 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:52:04,410 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:52:04,410 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:52:04,410 :INFO : verifyAllTask :Ride Bike task is available 
+2022-05-02 15:52:04,411 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:52:04,411 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:52:04,411 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:52:04,411 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:52:04,411 :INFO : verifyAllTask :Getout task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,412 :INFO : verifyAllTask :Clean Home task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,413 :INFO : verifyAllTask :Play TV task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,414 :INFO : verifyAllTask :Play Cricket task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,415 :INFO : verifyAllTask :Go ride task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,416 :INFO : verifyAllTask :Drink coke task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,417 :INFO : verifyAllTask :Drink Coffee task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,418 :INFO : verifyAllTask :Call Swiggy task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,419 :INFO : verifyAllTask :Get Food task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,420 :INFO : verifyAllTask :Read book task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,422 :INFO : verifyAllTask :Call Dad task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,423 :INFO : verifyAllTask :Work well task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,424 :INFO : verifyAllTask :Complete Assignment task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,425 :INFO : verifyAllTask :Talk SLow task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,426 :INFO : verifyAllTask :Yell task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:52:04,427 :INFO : verifyAllTask :Speak task is available 
+2022-05-02 15:54:04,975 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:24:04.662Z","__v":66},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODcwNDR9.zCxqEfsTh9wQTNF1M7xBlXmSV-EcoJpTm-a-Ao1yAsg"}
+2022-05-02 15:54:06,933 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:54:06,933 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:54:06,978 :INFO : __init__ :Eat Banana task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Play Music task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Play Movie task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Ride Bike task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Getout task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Clean Home task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Play TV task is available 
+2022-05-02 15:54:06,978 :INFO : __init__ :Play Cricket task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Go ride task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Drink coke task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Drink Coffee task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Call Swiggy task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Get Food task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Read book task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Call Dad task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Work well task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Complete Assignment task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Talk SLow task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Yell task is available 
+2022-05-02 15:54:06,979 :INFO : __init__ :Speak task is available 
+2022-05-02 15:58:08,441 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:28:08.182Z","__v":67},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODcyODh9.xlUZ35Gud21YAKsHgZr4732pv4Xd4QEyHkI7FuGCTrM"}
+2022-05-02 15:58:10,434 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:58:10,434 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:58:10,476 :INFO : __init__ :Eat Banana task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Play Music task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Play Movie task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Ride Bike task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Getout task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Clean Home task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Play TV task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Play Cricket task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Go ride task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Drink coke task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Drink Coffee task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Call Swiggy task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Get Food task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Read book task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Call Dad task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Work well task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Complete Assignment task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Talk SLow task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Yell task is available 
+2022-05-02 15:58:10,476 :INFO : __init__ :Speak task is available 
+2022-05-02 15:59:05,296 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:29:04.954Z","__v":68},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODczNDR9.ObYI28GsixjGAAsS3SuKQ80rDVarvwaDBpLZ_BkvPeA"}
+2022-05-02 15:59:07,220 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:59:07,220 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"count":20,"data":[{"completed":false,"_id":"626f9db05e089b0017eb627c","description":"Eat Banana","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:32.864Z","updatedAt":"2022-05-02T09:00:32.864Z","__v":0},{"completed":false,"_id":"626f9db45e089b0017eb627e","description":"Play Music","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:36.669Z","updatedAt":"2022-05-02T09:00:36.669Z","__v":0},{"completed":false,"_id":"626f9db85e089b0017eb6280","description":"Play Movie","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:40.760Z","updatedAt":"2022-05-02T09:00:40.760Z","__v":0},{"completed":false,"_id":"626f9dbc5e089b0017eb6282","description":"Ride Bike","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:44.531Z","updatedAt":"2022-05-02T09:00:44.531Z","__v":0},{"completed":false,"_id":"626f9dc05e089b0017eb6284","description":"Getout","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:48.355Z","updatedAt":"2022-05-02T09:00:48.355Z","__v":0},{"completed":false,"_id":"626f9dc35e089b0017eb6286","description":"Clean Home","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:51.724Z","updatedAt":"2022-05-02T09:00:51.724Z","__v":0},{"completed":false,"_id":"626f9dc75e089b0017eb6289","description":"Play TV","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:55.935Z","updatedAt":"2022-05-02T09:00:55.935Z","__v":0},{"completed":false,"_id":"626f9dcb5e089b0017eb628b","description":"Play Cricket","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:00:59.693Z","updatedAt":"2022-05-02T09:00:59.693Z","__v":0},{"completed":false,"_id":"626f9dcf5e089b0017eb628d","description":"Go ride","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:03.315Z","updatedAt":"2022-05-02T09:01:03.315Z","__v":0},{"completed":false,"_id":"626f9dd35e089b0017eb628f","description":"Drink coke","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:07.705Z","updatedAt":"2022-05-02T09:01:07.705Z","__v":0},{"completed":false,"_id":"626f9dd75e089b0017eb6291","description":"Drink Coffee","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:11.280Z","updatedAt":"2022-05-02T09:01:11.280Z","__v":0},{"completed":false,"_id":"626f9dda5e089b0017eb6293","description":"Call Swiggy","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:14.824Z","updatedAt":"2022-05-02T09:01:14.824Z","__v":0},{"completed":false,"_id":"626f9dde5e089b0017eb6295","description":"Get Food","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:18.667Z","updatedAt":"2022-05-02T09:01:18.667Z","__v":0},{"completed":false,"_id":"626f9de35e089b0017eb6297","description":"Read book","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:23.043Z","updatedAt":"2022-05-02T09:01:23.043Z","__v":0},{"completed":false,"_id":"626f9de65e089b0017eb6299","description":"Call Dad","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:26.452Z","updatedAt":"2022-05-02T09:01:26.452Z","__v":0},{"completed":false,"_id":"626f9dea5e089b0017eb629b","description":"Work well","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:30.119Z","updatedAt":"2022-05-02T09:01:30.119Z","__v":0},{"completed":false,"_id":"626f9ded5e089b0017eb629d","description":"Complete Assignment","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:33.892Z","updatedAt":"2022-05-02T09:01:33.892Z","__v":0},{"completed":false,"_id":"626f9df15e089b0017eb629f","description":"Talk SLow","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:37.742Z","updatedAt":"2022-05-02T09:01:37.742Z","__v":0},{"completed":false,"_id":"626f9df55e089b0017eb62a1","description":"Yell","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:41.483Z","updatedAt":"2022-05-02T09:01:41.483Z","__v":0},{"completed":false,"_id":"626f9df95e089b0017eb62a3","description":"Speak","owner":"626f9c725e089b0017eb6265","createdAt":"2022-05-02T09:01:45.462Z","updatedAt":"2022-05-02T09:01:45.462Z","__v":0}]}
+2022-05-02 15:59:07,263 :INFO : __init__ :Eat Banana task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Play Music task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Play Movie task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Ride Bike task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Getout task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Clean Home task is available 
+2022-05-02 15:59:07,263 :INFO : __init__ :Play TV task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Play Cricket task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Go ride task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Drink coke task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Drink Coffee task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Call Swiggy task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Get Food task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Read book task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Call Dad task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Work well task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Complete Assignment task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Talk SLow task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Yell task is available 
+2022-05-02 15:59:07,264 :INFO : __init__ :Speak task is available 
+2022-05-02 16:13:19,743 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:43:19.309Z","__v":69},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODgxOTl9.h5Mw1PfsRVw0UNlM95UqVDhEG6h_E1mhLn1LR9mYJRs"}
+2022-05-02 16:14:24,281 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:44:24.082Z","__v":70},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODgyNjR9.bDe8wrFRilLhfbjNQMP6yxS5iaGa1UxVYKc4pixF77w"}
+2022-05-02 16:14:25,995 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:44:24.082Z","__v":70}
+2022-05-02 16:14:25,995 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:44:24.082Z","__v":70}
+2022-05-02 16:15:15,552 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:15.290Z","__v":71},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODgzMTV9.tcz9TUrEX_xuC8IcofsIEETAN5-OnaaWXEpnCa7w9gQ"}
+2022-05-02 16:15:17,176 :INFO : Main_API_Assignment.Pages.User :Username and password successfully verified
+2022-05-02 16:15:17,176 :INFO : Main_API_Assignment.Pages.User :Username and password successfully verified
+2022-05-02 16:15:17,176 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:15.290Z","__v":71}
+2022-05-02 16:15:17,176 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:15.290Z","__v":71}
+2022-05-02 16:15:52,011 :INFO : Main_API_Assignment.Pages.User :POST response {"user":{"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:51.244Z","__v":72},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjZmOWM3MjVlMDg5YjAwMTdlYjYyNjUiLCJpYXQiOjE2NTE0ODgzNTF9.VKzDgON4FZs-wAb8J50kINOgPE8DJzdvdR955d-6McY"}
+2022-05-02 16:15:53,516 :INFO : Main_API_Assignment.Pages.User :Username and password successfully verified
+2022-05-02 16:15:53,516 :INFO : Main_API_Assignment.Pages.User :Username and password successfully verified
+2022-05-02 16:15:53,516 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:51.244Z","__v":72}
+2022-05-02 16:15:53,516 :INFO : Main_API_Assignment.Pages.User :getAllTask API response: {"age":20,"_id":"626f9c725e089b0017eb6265","name":"Muhammad Nur Ali","email":"muh.nurali434500@yahoo.com","createdAt":"2022-05-02T08:55:14.176Z","updatedAt":"2022-05-02T10:45:51.244Z","__v":72}
